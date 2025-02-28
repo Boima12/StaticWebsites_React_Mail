@@ -1,0 +1,112 @@
+div.main_mail {
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+div.main_mail div.mail_top {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EEE;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  align-self: stretch;
+}
+div.main_mail div.mail_top img {
+  width: calc(20% + 32px);
+  aspect-ratio: 1/1;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+div.main_mail div.mail_top > h3 {
+  align-self: stretch;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_mail div.mail_top div.mail_from {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  align-self: stretch;
+}
+div.main_mail div.mail_top div.mail_from .ic_clock {
+  width: 16px;
+  height: 16px;
+  color: #000;
+}
+div.main_mail div.mail_top div.mail_from p {
+  align-self: stretch;
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_mail div.mail_top div.mail_buttons {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  align-self: stretch;
+}
+div.main_mail div.mail_top div.mail_buttons button {
+  padding: 8px 16px;
+  background: #F1F1F1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+div.main_mail div.mail_top div.mail_buttons button p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_mail div.mail_top div.mail_buttons button .ic_reply {
+  width: 14px;
+  height: 12px;
+  color: #000;
+}
+div.main_mail div.mail_top div.mail_buttons button .ic_forward {
+  width: 12px;
+  height: 12px;
+  color: #000;
+}
+div.main_mail div.mail_top div.mail_buttons button:hover {
+  background: #ccc;
+}
+div.main_mail div.mail_body {
+  padding: 10px 40px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+div.main_mail div.mail_body p {
+  align-self: stretch;
+  white-space: pre-line;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=mail.module.css.map */

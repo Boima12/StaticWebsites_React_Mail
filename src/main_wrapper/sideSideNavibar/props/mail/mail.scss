@@ -1,0 +1,133 @@
+div.main_mail {
+    padding: 20px 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;    
+
+    div.mail_top {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #EEE;        
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        align-self: stretch;    
+        
+        img {
+            width: calc(20% + 32px);
+            aspect-ratio: 1/1;
+            border-radius: 4px;
+
+            object-fit: cover;
+            object-position: center;
+            display: block;            
+        }
+
+        & > h3 {
+            align-self: stretch;
+
+            color: rgba(0, 0, 0, 0.60);
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;            
+        }
+
+        div.mail_from {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            align-self: stretch;      
+            
+            .ic_clock {
+                width: 16px;
+                height: 16px;  
+                color: #000;                              
+            }
+
+            p {
+                align-self: stretch;
+
+                color: #000;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;                
+            }
+        }
+
+        div.mail_buttons {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            align-self: stretch;   
+            
+            button {
+                padding: 8px 16px;
+                background: #F1F1F1;
+                border: none;
+                cursor: pointer;
+
+                transition: all 0.4s;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;        
+                
+                p {
+                    color: #000;
+                    font-family: Roboto;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;                    
+                }
+
+                .ic_reply {
+                    width: 14px;
+                    height: 12px;
+                    color: #000;             
+                }
+
+                .ic_forward {
+                    width: 12px;
+                    height: 12px;          
+                    color: #000;                              
+                }
+
+                &:hover {
+                    background: #ccc;                    
+                }
+            }
+        }
+    }
+
+    div.mail_body {
+        padding: 10px 40px 0px 0px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;  
+        
+        p {
+            align-self: stretch;  
+            white-space: pre-line;   
+            
+            color: #000;
+            font-family: Roboto;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;            
+        }
+    }
+}
