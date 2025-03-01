@@ -109,4 +109,50 @@ div.main_mail div.mail_body p {
   line-height: normal;
 }
 
+/* Extra small devices (phones, below 600px) */
+@media only screen and (min-width: 320px) and (max-width: 599.9px) {
+  div.main_mail div.mail_top > h3 {
+    font-size: 15px;
+  }
+  div.main_mail div.mail_top div.mail_from {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    align-self: stretch;
+  }
+  div.main_mail div.mail_top div.mail_from p {
+    font-size: 16px;
+  }
+  div.main_mail div.mail_body {
+    padding: 10px 10px 0px 0px;
+  }
+  div.main_mail div.mail_body p {
+    text-align: justify;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
+  div.main_mail div.mail_top > h3 {
+    font-size: 15px;
+  }
+  div.main_mail div.mail_top div.mail_from {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    align-self: stretch;
+  }
+  div.main_mail div.mail_top div.mail_from p {
+    font-size: 16px;
+  }
+  div.main_mail div.mail_body {
+    padding: 10px 10px 0px 0px;
+  }
+  div.main_mail div.mail_body p {
+    text-align: justify;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
 /*# sourceMappingURL=mail.module.css.map */

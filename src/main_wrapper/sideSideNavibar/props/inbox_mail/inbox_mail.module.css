@@ -1,3 +1,58 @@
-
+li.main_inbox_mail {
+  padding: 16px 16px 32px 32px;
+  border-bottom: 1px solid #CCC;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  align-self: stretch;
+}
+li.main_inbox_mail div.title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+li.main_inbox_mail div.title img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+li.main_inbox_mail div.title h3 {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+li.main_inbox_mail p.subject {
+  align-self: stretch;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+li.main_inbox_mail p.brief {
+  align-self: stretch;
+  white-space: nowrap;
+  overflow: clip;
+  text-overflow: ellipsis;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+li.main_inbox_mail:hover {
+  background: #ccc;
+}
 
 /*# sourceMappingURL=inbox_mail.module.css.map */

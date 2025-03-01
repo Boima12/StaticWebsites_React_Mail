@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"inbox_mail.module.css"}
+{"version":3,"sourceRoot":"","sources":["inbox_mail.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EAEA;EAEA;EACA;EACA;EACA;EACA;;AAIA;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EAEA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAIR;EACI;EAEA;EACA;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;EAEA;EACA;EACA;EACA;EACA;EACA;;AAGJ;EACI","file":"inbox_mail.module.css"}

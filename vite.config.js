@@ -10,6 +10,7 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/StaticWebsites_React_Mail/',
   resolve: {
     alias: {
       '~': path.resolve(__dirname, './'), // Alias '~' points to the 'src' folder
